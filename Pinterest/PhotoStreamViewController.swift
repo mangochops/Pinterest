@@ -22,7 +22,7 @@ class PhotoStreamViewController: UICollectionViewController {
 
     view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "Pattern"))
     
-    collectionView!.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    collectionView!.backgroundColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
     
     if #available(iOS 11.0, *) {
       collectionView?.contentInsetAdjustmentBehavior = .always
